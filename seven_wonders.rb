@@ -9,7 +9,6 @@ def get_location(search_term)
 end
 
 def find_seven_wonders
-
   seven_wonders = ["Great Pyramid of Giza", "Gardens of Babylon", "Colossus of Rhodes", "Pharos of Alexandria", "Statue of Zeus at Olympia", "Temple of Artemis", "Mausoleum at Halicarnassus"]
 
   seven_wonders_locations = []
@@ -22,6 +21,7 @@ def find_seven_wonders
   return seven_wonders_locations
 end
 
+puts "#{find_seven_wonders}"
 
 # Use awesome_print because it can format the output nicely
 ap find_seven_wonders
